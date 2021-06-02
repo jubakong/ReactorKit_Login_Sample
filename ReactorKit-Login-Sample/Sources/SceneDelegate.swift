@@ -14,7 +14,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-    
+    guard let vc = window?.rootViewController as? ViewController else { return }
+    let reactor = MainViewReactor()
+    vc.reactor = reactor
     IQKeyboardManager.shared.enable = true
     IQKeyboardManager.shared.shouldResignOnTouchOutside = true
     
