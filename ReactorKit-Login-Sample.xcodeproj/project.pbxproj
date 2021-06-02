@@ -16,6 +16,7 @@
 		3AEB789C2667143D0017159D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3AEB789B2667143D0017159D /* IQKeyboardManagerSwift */; };
 		3AEB789E266716CA0017159D /* MainVIewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB789D266716CA0017159D /* MainVIewReactor.swift */; };
 		3AEB78A626675C630017159D /* LoginSuccess.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEB78A526675C630017159D /* LoginSuccess.storyboard */; };
+		3AEB78A926675F780017159D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB78A826675F780017159D /* Coordinator.swift */; };
 		7A73F32E0D73FE3CF289F36A /* Pods_ReactorKit_Login_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F67664905BAEB9F1D2AFA52 /* Pods_ReactorKit_Login_Sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		3AEB789426670F4E0017159D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AEB789D266716CA0017159D /* MainVIewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVIewReactor.swift; sourceTree = "<group>"; };
 		3AEB78A526675C630017159D /* LoginSuccess.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginSuccess.storyboard; sourceTree = "<group>"; };
+		3AEB78A826675F780017159D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		50AAAD8FFB779A24DE82AA6E /* Pods-ReactorKit-Login-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKit-Login-Sample.debug.xcconfig"; path = "Target Support Files/Pods-ReactorKit-Login-Sample/Pods-ReactorKit-Login-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		92027E9B02E51FE534AE3C77 /* Pods-ReactorKit-Login-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKit-Login-Sample.release.xcconfig"; path = "Target Support Files/Pods-ReactorKit-Login-Sample/Pods-ReactorKit-Login-Sample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 			children = (
 				3AEB788626670F4E0017159D /* AppDelegate.swift */,
 				3AEB788826670F4E0017159D /* SceneDelegate.swift */,
+				3AEB78A726675F6A0017159D /* Coordinator */,
 				3AEB78A226675B870017159D /* ViewControllers */,
 				3AEB78A326675B920017159D /* ViewReactors */,
 			);
@@ -137,6 +140,14 @@
 				3AEB789426670F4E0017159D /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AEB78A726675F6A0017159D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB78A826675F780017159D /* Coordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		4AF71F30902C419DE1B755F8 /* Frameworks */ = {
@@ -270,6 +281,7 @@
 			files = (
 				3AEB789E266716CA0017159D /* MainVIewReactor.swift in Sources */,
 				3AEB788B26670F4E0017159D /* ViewController.swift in Sources */,
+				3AEB78A926675F780017159D /* Coordinator.swift in Sources */,
 				3AEB788726670F4E0017159D /* AppDelegate.swift in Sources */,
 				3AEB788926670F4E0017159D /* SceneDelegate.swift in Sources */,
 			);
