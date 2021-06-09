@@ -2,5 +2,5 @@
 
 ## Stacks
 ```
-architecture: ReactorKit
+Architecture: ReactorKit
 Reactive Programming: RxSwift, RxCocoa
