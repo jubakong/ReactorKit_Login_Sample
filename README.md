@@ -1,5 +1,5 @@
 # ReactorKit_Login_Sample
 
 ## Stacks
-- Architecture: ReactorKit
+- Architecture: ReactorKit + Coordinator
 - Reactive Programming: RxSwift
